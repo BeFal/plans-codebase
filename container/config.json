@@ -1,0 +1,20 @@
+{
+"yolo_weights_path": "models/YOLOv7/yolo7_symbol_detection.onnx",
+"tiling_size": 320,
+"tile_overlap": 100,
+"tiling_scale": 2.0,  
+"confidence_threshold": 0.8, 
+"iou_threshold": 0.4, 
+
+
+"download_weights": false,
+"model_storage_directory": "models/EasyOCR",
+"user_network_directory": "models/EasyOCR",
+
+
+"GPU_ID": 6,
+"IMAGE_FORMAT": ".png",
+"SYMBOL_ID": 0 
+}
+
+
