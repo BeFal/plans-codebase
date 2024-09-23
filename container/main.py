@@ -410,25 +410,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
     inputfile = args.inputfile
     outputpath = args.outputPath 
-
-
-    # inputfile = ["/raid/USERDATA/faltibl7/15_BIMKIT_AI-Services/Data/input/BIM_Deutschland/BIMKIT_Exchange.json",
-    #                 "/raid/USERDATA/faltibl7/15_BIMKIT_AI-Services/Data/input/BIM_Deutschland/Pfeiler.png",
-    #                 "/raid/USERDATA/faltibl7/15_BIMKIT_AI-Services/Data/input/BIM_Deutschland/Uebersicht.png",
-    #                 "/raid/USERDATA/faltibl7/15_BIMKIT_AI-Services/Data/input/BIM_Deutschland/Widerlager.png"]
-
-
-    # outputpath = "/raid/USERDATA/faltibl7/15_BIMKIT_AI-Services/Data/output/"
-
-
-    # inputfile = "/raid/USERDATA/faltibl7/15_BIMKIT_AI-Services/Data/input/BIM_Deutschland_ZIP/BIM_Deutschland.zip"
-    # outputpath = "/raid/USERDATA/faltibl7/15_BIMKIT_AI-Services/Data/output/"
-
-
-    
-    # inputfile = "/raid/USERDATA/faltibl7/15_BIMKIT_AI-Services/Data/input/Hochbau/Stockwerksmodell.png"
-    # outputpath = "/raid/USERDATA/faltibl7/15_BIMKIT_AI-Services/Data/output/"   
-    
+        
     infer_drawing_scale(inputfile, outputpath)
 
 
